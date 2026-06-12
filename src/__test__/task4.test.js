@@ -18,7 +18,7 @@ describe('Function myMax tests', () => {
 
   test('Function contains Math.max and apply usage', () => {
     const myMaxStr = myMax.toString()
-    expect(myMaxStr).toMatch(/Math.max/)
+    expect(myMaxStr).toMatch(/Math\.max/)
     expect(myMaxStr).toMatch(/apply/)
   })
 })
