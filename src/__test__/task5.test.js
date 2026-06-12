@@ -20,6 +20,6 @@ describe('Multiplication functions tests', () => {
   })
 
   test('myDouble and myTriple are created using myMul.bind', () => {
-    expect(code).toMatch(/myMul\.bind/)
+    expect(code).toMatch(/myMul\s*\.\s*bind/)
   })
 })
